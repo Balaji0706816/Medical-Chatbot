@@ -1,0 +1,11 @@
+sentence-transformers==2.2.2 #uses hugging face to download this model and with this we can generate vector embeddings
+langchain
+flask
+pypdf
+python-dotenv
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_openai
+langchain_experimental
+-e .
